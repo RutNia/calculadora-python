@@ -2,6 +2,8 @@
 Calculadora en Python
 Responsable del proyecto: Ruth Benítez (Líder)
 """
+# Versión final del proyecto - v1.5
+# Revisado y optimizado por Ruth Benítez (Líder)
 
 def suma(a, b):
     return a + b
