@@ -1,8 +1,13 @@
 """
 Calculadora en Python
-Proyecto de práctica para el deber de Control de Versiones.
-Responsable del proyecto: Ruth Benítez (Líder de Proyecto)
+Responsable del proyecto: Ruth Benítez (Líder)
 """
+
+def suma(a, b):
+    return a + b
+
+def resta(a, b):
+    return a - b
 
 def main():
     print("Calculadora en construcción...")
