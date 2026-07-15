@@ -19,13 +19,12 @@ def division(a, b):
         return "Error: no se puede dividir entre cero"
 
 def main():
-    print("*** BIENVENIDO A LA CALCULADORA ***")
-    print("Selecciona una operación:")
-    print("a) Sumar")
-    print("b) Restar")
-    print("c) Multiplicar")
-    print("d) Dividir")
-    opcion = input("Tu elección: ")
+    print("===== CALCULADORA =====")
+    print("1. Suma")
+    print("2. Resta")
+    print("3. Multiplicación")
+    print("4. División")
+    opcion = input("Elige una opción: ")
     print("Calculadora en construcción...")
 
 if __name__ == "__main__":
