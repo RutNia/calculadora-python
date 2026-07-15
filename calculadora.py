@@ -13,7 +13,10 @@ def multiplicacion(a, b):
     return a * b
 
 def division(a, b):
-    return a / b
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return "Error: no se puede dividir entre cero"
 
 def main():
     print("Calculadora en construcción...")
